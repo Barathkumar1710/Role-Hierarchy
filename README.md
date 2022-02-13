@@ -1,10 +1,7 @@
 # Role-Hierarchy
 #include <bits/stdc++.h>
-  
 #define max 20
 using namespace std;
-  
-// Structure of Employee
 struct employee {
     string name;
     long int code;
@@ -16,13 +13,8 @@ struct employee {
 int num;
 void showMenu();
   
-// Array of Employees to store the
-// data in the form of the Structure
-// of the Array
 employee emp[max], tempemp[max],
     sortemp[max], sortemp1[max];
-  
-// Function to build the given datatype
 void build()
 {
     cout << "Build The Table";
